@@ -26,7 +26,7 @@
 .background-numbers {
   position: absolute;
   top: 50px;
-  left: 30px;
+  left: -30px;
   line-height: 0;
   z-index: -1;
   font-size: 10rem;
