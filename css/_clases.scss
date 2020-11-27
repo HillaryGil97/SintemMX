@@ -45,3 +45,26 @@
 .section-parraph-white{
     color: $parraph;
 }
+
+.cifras{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    .itemCifra{
+        background-color:white;
+        display: flex;
+        span{
+            color: $background_blue;
+            font-size: 2rem;
+        }
+        div{
+            h4{
+                font-size: 3.5rem;
+            }
+            p{
+                font-size: 1rem;
+                color: gray;
+            }
+        }
+    }
+}

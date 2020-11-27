@@ -51,6 +51,36 @@
   color: rgba(255, 255, 255, 0.55);
 }
 
+.cifras {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+.cifras .itemCifra {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cifras .itemCifra span {
+  color: #007bff;
+  font-size: 2rem;
+}
+
+.cifras .itemCifra div h4 {
+  font-size: 3.5rem;
+}
+
+.cifras .itemCifra div p {
+  font-size: 1rem;
+  color: gray;
+}
+
 .col-md-4 .p-3 div span {
   font-size: 3.5rem;
   font-weight: 300;
