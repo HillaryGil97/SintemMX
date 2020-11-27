@@ -68,3 +68,41 @@
         }
     }
 }
+
+.intro-section{
+    background-color:$background_blue;
+    margin-bottom:150px;
+    .row{
+        #cabecera{
+            margin-top:150px;
+            padding: 1rem 3rem 1rem 3rem;
+            div{
+                width: 50%;
+                padding: 1rem 3rem 1rem 3rem;
+                h1 {
+                    color:white;
+                }
+                p{
+                    color:$text_w_bg_blue;
+                    font-size: 1.1rem;
+                }
+                a{
+                    border:solid 1px white;
+                    border-radius: 5px;
+                    padding: 1rem 3rem 1rem 3rem;
+                    font-size: 12px;
+                    font-weight: 900;
+                    &:hover{
+                        color: black;
+                        background-color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .image{
+            position: relative;
+            background-color: white;
+        }
+    }
+}

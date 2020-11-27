@@ -81,6 +81,49 @@
   color: gray;
 }
 
+.intro-section {
+  background-color: #007bff;
+  margin-bottom: 150px;
+}
+
+.intro-section .row #cabecera {
+  margin-top: 150px;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.intro-section .row #cabecera div {
+  width: 50%;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.intro-section .row #cabecera div h1 {
+  color: white;
+}
+
+.intro-section .row #cabecera div p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+}
+
+.intro-section .row #cabecera div a {
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.intro-section .row #cabecera div a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.intro-section .row .image {
+  position: relative;
+  background-color: white;
+}
+
 .col-md-4 .p-3 div span {
   font-size: 3.5rem;
   font-weight: 300;
